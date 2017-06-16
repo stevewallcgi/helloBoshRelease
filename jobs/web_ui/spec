@@ -2,5 +2,7 @@
 name: web_ui
 templates:
   ctl.erb: bin/ctl
-  
+
 packages:
+- ardo_app
+- ruby_1.9.3

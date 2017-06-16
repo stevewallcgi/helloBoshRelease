@@ -1,0 +1,10 @@
+# abort script on any command that exits with a non zero value
+set -e -x
+
+tar xzf libyaml_0.1.4/yaml-0.1.4.tar.gz
+pushd yaml-0.1.4
+  ./configure --prefix=${BOSH_INSTALL_TARGET}
+
+  make
+  make install
+popd

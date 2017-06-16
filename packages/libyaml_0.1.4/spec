@@ -1,0 +1,7 @@
+---
+name: libyaml_0.1.4
+
+dependencies: []
+
+files:
+- libyaml_0.1.4/yaml-0.1.4.tar.gz # From http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
