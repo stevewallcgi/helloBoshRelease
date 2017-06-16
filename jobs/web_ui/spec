@@ -1,0 +1,6 @@
+---
+name: web_ui
+templates:
+  ctl.erb: bin/ctl
+  
+packages:

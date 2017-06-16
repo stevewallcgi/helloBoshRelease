@@ -1,0 +1,5 @@
+check process bg_worker
+  with pidfile /var/vcap/sys/run/bg_worker/pid
+  start program "/var/vcap/jobs/bg_worker/bin/ctl start"
+  stop program "/var/vcap/jobs/bg_worker/bin/ctl stop"
+  group vcap
